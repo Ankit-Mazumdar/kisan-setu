@@ -19,7 +19,8 @@ load_dotenv()
 # =========================================================
 
 # KisanSetu Django backend
-DJANGO_API_URL = "http://127.0.0.1:8000"
+
+DJANGO_API_URL = "https://kisan-setu-rdqn.onrender.com"
 
 # Groq client
 client = Groq(

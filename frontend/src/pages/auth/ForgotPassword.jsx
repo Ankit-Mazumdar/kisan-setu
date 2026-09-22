@@ -52,8 +52,8 @@ function ForgotPassword() {
 
     try {
 
-      const response = await fetch(
-        'http://127.0.0.1:8000/api/forgot-password/',
+const response = await fetch(
+  'https://kisan-setu-rdqn.onrender.com/api/forgot-password/',
         {
           method: 'POST',
 
@@ -154,8 +154,8 @@ function ForgotPassword() {
 
     try {
 
-      const response = await fetch(
-        'http://127.0.0.1:8000/api/reset-password/',
+const response = await fetch(
+  'https://kisan-setu-rdqn.onrender.com/api/reset-password/',
         {
           method: 'POST',
 
