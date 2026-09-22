@@ -1,0 +1,45 @@
+# =========================
+# React
+# =========================
+node_modules/
+dist/
+.env
+.env.*
+
+# =========================
+# Python / Django
+# =========================
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+.env
+
+# =========================
+# Chatbot Python
+# =========================
+chatbot-backend/venv/
+chatbot-backend/.venv/
+chatbot-backend/__pycache__/
+
+# =========================
+# Django backend
+# =========================
+kisan-setu-backend/venv/
+kisan-setu-backend/.venv/
+kisan-setu-backend/__pycache__/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+**/db.sqlite3

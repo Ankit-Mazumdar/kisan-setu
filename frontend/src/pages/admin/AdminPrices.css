@@ -1,0 +1,348 @@
+.price-page {
+    margin-top: 28px;
+}
+
+.price-page-header {
+    background: #ffffff;
+    border: 1px solid #dedbd1;
+    border-radius: 16px;
+    padding: 24px 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.price-page-header h2 {
+    margin: 0 0 6px;
+    color: #102a3b;
+    font-size: 22px;
+}
+
+.price-page-header p {
+    margin: 0;
+    color: #6d756f;
+    font-size: 14px;
+}
+
+.price-unit {
+    background: #e8f4ee;
+    color: #1f6b45;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    letter-spacing: 0.4px;
+}
+
+.price-table-wrapper {
+    background: #ffffff;
+    border: 1px solid #dedbd1;
+    border-radius: 16px;
+    overflow-x: auto;
+}
+
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 900px;
+}
+
+.price-table th {
+    background: #f7f5ee;
+    color: #5e6862;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    padding: 15px 18px;
+    border-bottom: 1px solid #dedbd1;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.price-table td {
+    padding: 17px 18px;
+    border-bottom: 1px solid #eeeae1;
+    color: #202923;
+    font-size: 14px;
+}
+
+.price-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.price-table tbody tr:hover {
+    background: #fafbf8;
+}
+
+.price-table td strong {
+    color: #102a3b;
+}
+
+.price-value {
+    color: #1f6b45;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.price-edit-box {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.price-edit-box span {
+    color: #1f6b45;
+    font-weight: 700;
+}
+
+.price-edit-box input {
+    width: 90px;
+    padding: 8px 10px;
+    border: 1px solid #dedbd1;
+    border-radius: 7px;
+    font-size: 14px;
+    outline: none;
+}
+
+.price-edit-box input:focus {
+    border-color: #1f6b45;
+}
+
+.price-actions {
+    display: flex;
+    gap: 7px;
+}
+
+.price-edit-btn,
+.price-save-btn,
+.price-cancel-btn {
+    border: none;
+    border-radius: 7px;
+    padding: 8px 13px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.price-edit-btn {
+    background: #e8f4ee;
+    color: #1f6b45;
+}
+
+.price-edit-btn:hover {
+    background: #dcefe5;
+}
+
+.price-save-btn {
+    background: #1f6b45;
+    color: #ffffff;
+}
+
+.price-save-btn:hover {
+    background: #155238;
+}
+
+.price-cancel-btn {
+    background: #f3f1eb;
+    color: #5e6862;
+}
+
+.price-cancel-btn:hover {
+    background: #e8e5dc;
+}
+
+.price-message {
+    background: #ffffff;
+    border: 1px solid #dedbd1;
+    border-radius: 16px;
+    padding: 35px;
+    text-align: center;
+    color: #6d756f;
+}
+
+.price-error {
+    background: #fff1ee;
+    border: 1px solid #e4b8ae;
+    color: #b3432b;
+    border-radius: 12px;
+    padding: 16px 18px;
+    font-size: 14px;
+}
+
+.price-centre-selector {
+    background: #ffffff;
+    border: 1px solid #dedbd1;
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.price-centre-selector label {
+    color: #102a3b;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.price-centre-selector select {
+    min-width: 300px;
+    padding: 10px 12px;
+    border: 1px solid #dedbd1;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #202923;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+}
+
+.price-centre-selector select:focus {
+    border-color: #1f6b45;
+}
+
+.price-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.price-add-btn {
+    border: none;
+    background: #1f6b45;
+    color: #ffffff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.price-add-btn:hover {
+    background: #155238;
+}
+
+.price-add-form {
+    background: #ffffff;
+    border: 1px solid #dedbd1;
+    border-radius: 16px;
+    padding: 22px 24px;
+    margin-bottom: 20px;
+}
+
+.price-form-title {
+    color: #102a3b;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.price-form-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr auto;
+    gap: 16px;
+    align-items: end;
+}
+
+.price-form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.price-form-field label {
+    color: #5e6862;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.price-form-field select,
+.price-form-field input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    border: 1px solid #dedbd1;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #202923;
+    font-size: 14px;
+    outline: none;
+}
+
+.price-form-field select:focus,
+.price-form-field input:focus {
+    border-color: #1f6b45;
+}
+
+.price-input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dedbd1;
+    border-radius: 8px;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.price-input-wrapper span {
+    padding-left: 12px;
+    color: #1f6b45;
+    font-weight: 700;
+}
+
+.price-input-wrapper input {
+    border: none;
+    border-radius: 0;
+}
+
+.price-input-wrapper input:focus {
+    border: none;
+}
+
+.price-submit-btn {
+    border: none;
+    background: #1f6b45;
+    color: #ffffff;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.price-submit-btn:hover {
+    background: #155238;
+}
+
+@media (max-width: 1000px) {
+
+    .price-form-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .price-header-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .price-form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .price-centre-selector {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .price-centre-selector select {
+        min-width: 0;
+        width: 100%;
+    }
+
+}

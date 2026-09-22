@@ -1,0 +1,16 @@
+{
+  "farmerName": "Ankit",
+  "bookingId": "KS1001",
+  "crop": "Wheat",
+  "centre": "Durgapur Procurement Centre",
+  "token": 37,
+  "queuePosition": 12,
+  "procurementPrice": 2425,
+  "bookingStatus": "Confirmed",
+  "paymentStatus": "Pending",
+  "documents": [
+    "Aadhaar Card",
+    "Farmer Registration Certificate",
+    "Bank Passbook"
+  ]
+}

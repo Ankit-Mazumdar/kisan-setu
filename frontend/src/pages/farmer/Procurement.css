@@ -1,0 +1,194 @@
+.procurement-page {
+  min-height: calc(100vh - 72px);
+  padding: 40px 6%;
+  background: #f7f5ee;
+}
+
+.procurement-header {
+  max-width: 1180px;
+  margin: 0 auto 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.procurement-label {
+  margin: 0 0 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #1f6b45;
+}
+
+.procurement-header h1 {
+  margin: 0;
+  color: #102a3b;
+  font-size: 32px;
+}
+
+.procurement-header p:last-child {
+  margin-top: 8px;
+  color: #66716c;
+}
+
+.procurement-back-btn {
+  padding: 11px 18px;
+  border: 1px solid #dedbd1;
+  border-radius: 10px;
+  background: white;
+  color: #123047;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.procurement-content {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.procurement-card {
+  background: white;
+  border: 1px solid #dedbd1;
+  border-radius: 16px;
+  padding: 28px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 20px rgba(18, 48, 71, 0.06);
+}
+
+.procurement-card h2 {
+  margin-top: 0;
+  color: #102a3b;
+}
+
+.procurement-status-card {
+  background: linear-gradient(
+    135deg,
+    #123047,
+    #1f6b45
+  );
+  color: white;
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+}
+
+.procurement-status-card h2 {
+  margin: 8px 0 4px;
+  font-size: 36px;
+  color: white;
+}
+
+.procurement-status-card p {
+  margin: 0;
+  opacity: 0.85;
+}
+
+.success-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.procurement-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.detail-item {
+  padding: 18px;
+  background: #f7f5ee;
+  border-radius: 12px;
+}
+
+.detail-item span {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 13px;
+  color: #66716c;
+}
+
+.detail-item strong {
+  color: #123047;
+  font-size: 16px;
+}
+
+.empty-card {
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.empty-icon {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.empty-card p {
+  color: #66716c;
+  line-height: 1.6;
+}
+
+.procurement-primary-btn {
+  margin-top: 15px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #1f6b45;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.procurement-primary-btn:hover {
+  background: #155238;
+}
+
+@media (max-width: 800px) {
+  .procurement-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .procurement-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .procurement-page {
+    padding: 28px 16px;
+  }
+
+  .procurement-header h1 {
+    font-size: 26px;
+  }
+
+  .procurement-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .procurement-status-card {
+    padding: 22px;
+  }
+
+  .procurement-status-card h2 {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,159 @@
+.farmer-details-back {
+    border: none;
+    background: transparent;
+    color: #1f6b45;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+.farmer-details-back:hover {
+    color: #155238;
+}
+
+.farmer-details-header {
+    background: #ffffff;
+    border: 1px solid #dedbd1;
+    border-radius: 15px;
+    padding: 22px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.farmer-details-avatar {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: #edf5f0;
+    color: #1f6b45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sora', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.farmer-details-header h2 {
+    margin: 0;
+    color: #123047;
+    font-family: 'Sora', sans-serif;
+    font-size: 21px;
+}
+
+.farmer-details-header p {
+    margin: 5px 0 0;
+    color: #7a827d;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+.farmer-details-card {
+    background: #ffffff;
+    border: 1px solid #dedbd1;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.farmer-details-card-heading {
+    padding: 17px 22px;
+    background: #f3f4ef;
+    border-bottom: 1px solid #dedbd1;
+}
+
+.farmer-details-card-heading h3 {
+    margin: 0;
+    color: #123047;
+    font-family: 'Sora', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.farmer-details-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.farmer-detail-item {
+    padding: 18px 22px;
+    border-bottom: 1px solid #eceae4;
+}
+
+.farmer-detail-item:nth-child(odd) {
+    border-right: 1px solid #eceae4;
+}
+
+.farmer-detail-item span {
+    display: block;
+    margin-bottom: 6px;
+    color: #7a827d;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+}
+
+.farmer-detail-item strong {
+    color: #123047;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.farmer-detail-wide {
+    grid-column: span 2;
+    border-right: none !important;
+}
+
+.admin-farmer-details-error {
+    max-width: 500px;
+    margin: 120px auto;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #dedbd1;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.admin-farmer-details-error h2 {
+    margin: 0 0 8px;
+    color: #123047;
+    font-family: 'Sora', sans-serif;
+}
+
+.admin-farmer-details-error p {
+    color: #737c76;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+.admin-farmer-details-error button {
+    border: none;
+    border-radius: 9px;
+    padding: 11px 18px;
+    background: #1f6b45;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media (max-width: 650px) {
+
+    .farmer-details-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .farmer-detail-item:nth-child(odd) {
+        border-right: none;
+    }
+
+    .farmer-detail-wide {
+        grid-column: span 1;
+    }
+
+}

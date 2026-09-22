@@ -1,0 +1,150 @@
+.officer-profile-page {
+  min-height: calc(100vh - 72px);
+  padding: 40px 24px;
+  background: #f7f5ee;
+}
+
+.officer-profile-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.officer-profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 28px;
+}
+
+.officer-profile-eyebrow {
+  display: block;
+  margin-bottom: 8px;
+  color: #1f6b45;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.officer-profile-header h1 {
+  margin: 0;
+  color: #102a3b;
+  font-family: Sora, sans-serif;
+  font-size: 32px;
+}
+
+.officer-profile-header p {
+  margin: 8px 0 0;
+  color: #6b746e;
+  font-size: 14px;
+}
+
+.officer-profile-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 28px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border: 1px solid #dedbd1;
+  border-radius: 16px;
+}
+
+.officer-profile-avatar {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #123047;
+  color: #ffffff;
+  font-family: Sora, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.officer-profile-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.officer-profile-main h2 {
+  width: 100%;
+  margin: 0;
+  color: #102a3b;
+  font-family: Sora, sans-serif;
+  font-size: 22px;
+}
+
+.officer-profile-main p {
+  margin: 0;
+  color: #6b746e;
+  font-size: 14px;
+}
+
+.officer-status,
+.profile-status {
+  display: inline-flex;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #e8f4ed;
+  color: #1f6b45;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.officer-profile-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.profile-detail {
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #dedbd1;
+  border-radius: 12px;
+}
+
+.profile-detail span {
+  display: block;
+  margin-bottom: 7px;
+  color: #7a827d;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.profile-detail strong {
+  color: #202923;
+  font-size: 15px;
+}
+
+@media (max-width: 700px) {
+
+  .officer-profile-page {
+    padding: 28px 16px;
+  }
+
+  .officer-profile-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .officer-profile-header h1 {
+    font-size: 27px;
+  }
+
+  .officer-profile-card {
+    padding: 20px;
+  }
+
+  .officer-profile-details {
+    grid-template-columns: 1fr;
+  }
+}

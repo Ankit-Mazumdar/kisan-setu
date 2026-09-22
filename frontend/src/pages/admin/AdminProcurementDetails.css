@@ -1,0 +1,268 @@
+.admin-procurement-details-page {
+    margin-left: 250px;
+    min-height: 100vh;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #f7f5ee;
+}
+
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.admin-procurement-details-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+.admin-procurement-details-header h1 {
+    margin: 8px 0 6px;
+    font-family: 'Sora', sans-serif;
+    color: #102a3b;
+    font-size: 32px;
+}
+
+.admin-procurement-details-header p {
+    margin: 0;
+    color: #69736e;
+    font-size: 14px;
+}
+
+
+/* ==========================================
+   BACK BUTTON
+========================================== */
+
+.procurement-back-button {
+    border: none;
+    background: transparent;
+    color: #1f6b45;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+.procurement-back-button:hover {
+    text-decoration: underline;
+}
+
+
+/* ==========================================
+   SUMMARY
+========================================== */
+
+.procurement-summary-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin-bottom: 30px;
+}
+
+.procurement-summary-card {
+    background: #ffffff;
+    border: 1px solid #dedbd1;
+    border-radius: 14px;
+    padding: 22px;
+}
+
+.procurement-summary-card span {
+    display: block;
+    color: #69736e;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.procurement-summary-card strong {
+    display: block;
+    color: #102a3b;
+    font-family: 'Sora', sans-serif;
+    font-size: 25px;
+}
+
+
+/* ==========================================
+   SECTIONS
+========================================== */
+
+.admin-procurement-details-section {
+    margin-bottom: 30px;
+}
+
+.admin-procurement-details-section-heading {
+    margin-bottom: 16px;
+}
+
+.admin-procurement-details-section-heading h2 {
+    margin: 0 0 5px;
+    font-family: 'Sora', sans-serif;
+    color: #102a3b;
+    font-size: 21px;
+}
+
+.admin-procurement-details-section-heading p {
+    margin: 0;
+    color: #69736e;
+    font-size: 13px;
+}
+
+
+/* ==========================================
+   CROP SUMMARY
+========================================== */
+
+.crop-summary-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+}
+
+.crop-summary-card {
+    background: #ffffff;
+    border: 1px solid #dedbd1;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.crop-summary-card span {
+    display: block;
+    color: #69736e;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.crop-summary-card strong {
+    color: #1f6b45;
+    font-family: 'Sora', sans-serif;
+    font-size: 22px;
+}
+
+
+/* ==========================================
+   TABLE CARD
+========================================== */
+
+.admin-procurement-details-card {
+    background: #ffffff;
+    border: 1px solid #dedbd1;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.admin-procurement-details-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.admin-procurement-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 850px;
+}
+
+.admin-procurement-details-table th {
+    background: #f4f3ed;
+    color: #69736e;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    padding: 14px 16px;
+    border-bottom: 1px solid #dedbd1;
+}
+
+.admin-procurement-details-table td {
+    padding: 16px;
+    border-bottom: 1px solid #eceae3;
+    color: #202923;
+    font-size: 13px;
+}
+
+.admin-procurement-details-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.admin-procurement-details-table td strong {
+    color: #102a3b;
+}
+
+.procurement-subtext {
+    display: block;
+    margin-top: 4px;
+    color: #69736e;
+    font-size: 12px;
+}
+
+
+/* ==========================================
+   EMPTY / MESSAGE
+========================================== */
+
+.procurement-empty {
+    padding: 30px;
+    text-align: center;
+    color: #69736e;
+}
+
+.admin-procurement-details-message {
+    padding: 50px;
+    text-align: center;
+    color: #69736e;
+}
+
+.admin-procurement-details-error {
+    background: #ffffff;
+    border: 1px solid #dedbd1;
+    border-radius: 14px;
+    padding: 40px;
+}
+
+.admin-procurement-details-error h2 {
+    margin-top: 0;
+    color: #102a3b;
+}
+
+.admin-procurement-details-error p {
+    color: #69736e;
+}
+
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 900px) {
+
+    .admin-procurement-details-page {
+        margin-left: 0;
+        padding: 25px;
+    }
+
+    .procurement-summary-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .admin-procurement-details-page {
+        padding: 18px;
+    }
+
+    .admin-procurement-details-header {
+        flex-direction: column;
+    }
+
+    .admin-procurement-details-header h1 {
+        font-size: 26px;
+    }
+
+}

@@ -1,0 +1,237 @@
+.my-token-page {
+    min-height: calc(100vh - 72px);
+    padding: 40px 24px 60px;
+}
+
+.my-token-container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.my-token-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.my-token-eyebrow {
+    margin: 0 0 6px;
+    color: #1f6b45;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.my-token-header h1 {
+    margin: 0;
+    color: #102a3b;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.my-token-subtitle {
+    margin: 8px 0 0;
+    color: #68736d;
+    font-size: 14px;
+}
+
+.my-token-count {
+    color: #123047;
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.my-token-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.my-token-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 20px 22px;
+    background: #ffffff;
+    border: 1px solid #dedbd1;
+    border-radius: 14px;
+}
+
+.my-token-card-main {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    min-width: 0;
+}
+
+.my-token-number {
+    min-width: 150px;
+    color: #123047;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.my-token-details {
+    min-width: 0;
+}
+
+.my-token-details h2 {
+    margin: 0;
+    color: #202923;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.my-token-details p {
+    margin: 4px 0;
+    color: #68736d;
+    font-size: 13px;
+}
+
+.my-token-details span {
+    color: #7a837e;
+    font-size: 12px;
+}
+
+.my-token-card-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 28px;
+    flex-shrink: 0;
+}
+
+.my-token-info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.my-token-info-item span {
+    color: #7a837e;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.my-token-info-item strong {
+    color: #202923;
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.my-token-status {
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #edf7f0;
+    color: #1f6b45;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+.my-token-empty {
+    padding: 60px 24px;
+    background: #ffffff;
+    border: 1px solid #dedbd1;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.my-token-empty-icon {
+    width: 42px;
+    height: 42px;
+    margin: 0 auto 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #edf7f0;
+    color: #1f6b45;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.my-token-empty h2 {
+    margin: 0;
+    color: #102a3b;
+    font-size: 20px;
+}
+
+.my-token-empty p {
+    max-width: 500px;
+    margin: 8px auto 0;
+    color: #68736d;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .my-token-page {
+        padding: 28px 16px 40px;
+    }
+
+    .my-token-header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .my-token-header h1 {
+        font-size: 28px;
+    }
+
+    .my-token-card {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .my-token-card-main {
+        width: 100%;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .my-token-number {
+        min-width: 100px;
+        font-size: 14px;
+    }
+
+    .my-token-card-info {
+        width: 100%;
+        justify-content: space-between;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+}
+
+/* ==========================================
+   DOWNLOAD TOKEN BUTTON
+   ========================================== */
+
+.my-token-download {
+    border: none;
+    background: #1f6b45;
+    color: #ffffff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s ease,
+                transform 0.2s ease;
+}
+
+.my-token-download:hover {
+    background: #155238;
+    transform: translateY(-1px);
+}
+
+.my-token-download:active {
+    transform: translateY(0);
+}

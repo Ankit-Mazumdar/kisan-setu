@@ -1,0 +1,207 @@
+.add-officer-back {
+    border: none;
+    background: transparent;
+    color: #1f6b45;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+.add-officer-back:hover {
+    color: #155238;
+}
+
+.add-officer-card {
+    max-width: 780px;
+    background: #ffffff;
+    border: 1px solid #dedbd1;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.add-officer-card-heading {
+    padding: 22px 24px;
+    background: #f3f4ef;
+    border-bottom: 1px solid #dedbd1;
+}
+
+.add-officer-card-heading h2 {
+    margin: 0;
+    color: #123047;
+    font-family: 'Sora', sans-serif;
+    font-size: 18px;
+}
+
+.add-officer-card-heading p {
+    margin: 5px 0 0;
+    color: #7a827d;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+.add-officer-form {
+    padding: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+
+.add-officer-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-officer-field label {
+    margin-bottom: 7px;
+    color: #344039;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.add-officer-field input,
+.add-officer-field select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 11px 12px;
+    border: 1px solid #d7d8d1;
+    border-radius: 8px;
+    outline: none;
+    background: #ffffff;
+    color: #202923;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+.add-officer-field input:focus,
+.add-officer-field select:focus {
+    border-color: #1f6b45;
+    box-shadow: 0 0 0 3px rgba(31, 107, 69, 0.08);
+}
+
+.add-officer-field input::placeholder {
+    color: #9a9f9b;
+}
+
+.add-officer-field small {
+    margin-top: 5px;
+    color: #8a918c;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+}
+
+.add-officer-error,
+.add-officer-success {
+    grid-column: span 2;
+    padding: 11px 13px;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.add-officer-error {
+    background: #fbecea;
+    color: #b3432b;
+    border: 1px solid #f1d1cc;
+}
+
+.add-officer-success {
+    background: #e8f4ec;
+    color: #1f6b45;
+    border: 1px solid #cde5d5;
+}
+
+.add-officer-actions {
+    grid-column: span 2;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 5px;
+}
+
+.add-officer-cancel,
+.add-officer-submit {
+    border: none;
+    border-radius: 8px;
+    padding: 11px 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.add-officer-cancel {
+    background: #eef0eb;
+    color: #344039;
+}
+
+.add-officer-cancel:hover {
+    background: #e3e6e0;
+}
+
+.add-officer-submit {
+    background: #1f6b45;
+    color: #ffffff;
+}
+
+.add-officer-submit:hover {
+    background: #155238;
+}
+
+.add-officer-submit:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+@media (max-width: 700px) {
+
+    .add-officer-form {
+        grid-template-columns: 1fr;
+    }
+
+    .add-officer-error,
+    .add-officer-success,
+    .add-officer-actions {
+        grid-column: span 1;
+    }
+
+    .add-officer-actions {
+        flex-direction: column-reverse;
+    }
+
+    .add-officer-cancel,
+    .add-officer-submit {
+        width: 100%;
+    }
+
+}
+
+.password-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-input-wrapper input {
+    padding-right: 60px;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    border: none;
+    background: transparent;
+    color: #1f6b45;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.password-toggle:hover {
+    color: #155238;
+}

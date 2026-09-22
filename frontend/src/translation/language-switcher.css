@@ -1,0 +1,31 @@
+.translation-switcher {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid #d8dee9;
+  border-radius: 999px;
+  background: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.translation-switcher button {
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: #333;
+  cursor: pointer;
+  padding: 7px 12px;
+  font-size: 14px;
+}
+
+.translation-switcher button.active {
+  background: #1f6feb;
+  color: #fff;
+}
+
+.translation-switcher--floating {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9999;
+}
